@@ -4,6 +4,7 @@ trigger:
  pool: 
  name: Default
 steps:
+Settings
 - task: VSBuild@1
   inputs:
     solution: '**\*.sln'
